@@ -40,15 +40,15 @@ const BLOG = {
     // support provider: gitalk, utterances, cusdis
     provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'https://github.com/isnine/comments', // The repository of store comments
-      owner: 'isnine',
-      admin: [isnine],
-      clientID: 'Ov23li0iojm2eCsCCFkd',
-      clientSecret: 'd7f63bf8db4dab609a61f2287055ce01b15772e9',
+      repo: '', // The repository of store comments
+      owner: '',
+      admin: [],
+      clientID: '',
+      clientSecret: '',
       distractionFreeMode: false
     },
     utterancesConfig: {
-      repo: 'https://github.com/isnine/comments'
+      repo: ''
     },
     cusdisConfig: {
       appId: '', // data-app-id
