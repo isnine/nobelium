@@ -38,7 +38,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'gitalk', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: 'https://github.com/isnine/comments', // The repository of store comments
       owner: 'isnine',
@@ -48,7 +48,7 @@ const BLOG = {
       distractionFreeMode: false
     },
     utterancesConfig: {
-      repo: ''
+      repo: 'https://github.com/isnine/comments'
     },
     cusdisConfig: {
       appId: '', // data-app-id
